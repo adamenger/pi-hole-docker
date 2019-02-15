@@ -1,0 +1,17 @@
+---
+version: '3.0'
+services:
+  pihole:
+    image: pihole/pihole
+    cap_add:
+      - NET_ADMIN
+    dns:
+      - 127.0.0.1
+      - 192.168.9.1
+    environment:
+      - ServerIP=192.168.9.4
+      - DNS1=192.168.9.1
+      - DNS2=no
+    ports:
+      - "80:80/tcp"
+      - "53:53/udp"
