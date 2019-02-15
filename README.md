@@ -1,6 +1,8 @@
 # pi hole
 
-This repo contains the docker-compose file I use to bring up the pi-hole container on my network. This config uses the official [https://hub.docker.com/r/pihole/pihole](pihole docker image). Check the [https://hub.docker.com/r/pihole/pihole#environment-variables](docker hub page) for more information on settings you can add to the `docker-compose.yml`.
+This repo contains the docker-compose file I use to bring up the pi-hole container on my network. This config uses the official [pihole docker image](https://hub.docker.com/r/pihole/pihole). 
+
+Check the [docker hub page](https://hub.docker.com/r/pihole/pihole#environment-variables) for more information on settings you can add to the `docker-compose.yml`.
 
 To get this running, simply clone this repo, modify the settings and run: 
 
